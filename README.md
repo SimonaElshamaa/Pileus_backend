@@ -34,6 +34,7 @@ my_fastapi_app/
 ├── requirements.txt        # Python dependencies
 ├── Dockerfile              # Optional Docker setup
 └── README.md
+```
 
 
 ## ⚙️ Setup Instructions
