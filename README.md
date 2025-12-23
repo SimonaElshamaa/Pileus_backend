@@ -1,22 +1,24 @@
-🚀 Pileus Backend
+# 🚀 Pileus Backend
 
-Pileus Backend is a production-ready backend built with FastAPI, designed with scalability, async database access, authentication helpers, and a clean modular architecture.
-It is ready for both local development and deployment.
+**Pileus Backend** is a production-ready backend built with **FastAPI**, designed for scalability, async database access, authentication helpers, and a clean modular architecture.  
+It is suitable for both **local development** and **production deployment**.
 
-✨ Features
+---
 
-⚡ FastAPI with async support
+## ✨ Features
 
-🗄️ Async SQLAlchemy database access
+- ⚡ FastAPI with async support  
+- 🗄️ Async SQLAlchemy database access  
+- 🔐 Authentication & security helpers  
+- 🧱 Modular and scalable project structure  
+- 🧪 Unit & integration testing setup  
+- 🐳 Docker-ready (optional)
 
-🔐 Authentication & security helpers
+---
 
-🧱 Modular, scalable project structure
+## 📁 Project Structure
 
-🧪 Unit & integration testing setup
-
-
-📁 Project Structure
+```text
 my_fastapi_app/
 ├── app/
 │   ├── main.py             # FastAPI app instance
@@ -33,19 +35,19 @@ my_fastapi_app/
 ├── Dockerfile              # Optional Docker setup
 └── README.md
 
-⚙️ Setup Instructions
-⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone <your-repo-url>
+
+## ⚙️ Setup Instructions
+### 1️⃣ Clone the repository
+```git clone <your-repo-url>
 cd my_fastapi_app
 
-2️⃣ Create & activate a virtual environment
-python3 -m venv venv
+### 2️⃣ Create & activate a virtual environment
+```python3 -m venv venv
 source venv/bin/activate   # Linux / macOS
 venv\Scripts\activate      # Windows
 
-3️⃣ Install dependencies
-pip install "fastapi<1.0" uvicorn sqlalchemy aiosqlite \
+### 3️⃣ Install dependencies
+```pip install "fastapi<1.0" uvicorn sqlalchemy aiosqlite \
 "passlib[bcrypt]" httpx pytest "pydantic<2.0" \
 greenlet "pydantic[email]"
 
