@@ -34,6 +34,7 @@ my_fastapi_app/
 └── README.md
 
 ⚙️ Setup Instructions
+⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone <your-repo-url>
 cd my_fastapi_app
@@ -41,7 +42,7 @@ cd my_fastapi_app
 2️⃣ Create & activate a virtual environment
 python3 -m venv venv
 source venv/bin/activate   # Linux / macOS
-# venv\Scripts\activate    # Windows
+venv\Scripts\activate      # Windows
 
 3️⃣ Install dependencies
 pip install "fastapi<1.0" uvicorn sqlalchemy aiosqlite \
