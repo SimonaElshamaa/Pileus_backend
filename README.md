@@ -1,13 +1,13 @@
 # 🚀 Pileus Backend
 
-**Pileus Backend** is a production-ready backend built with **FastAPI**, designed for scalability, async database access, authentication helpers, and a clean modular architecture.  
+**Pileus Backend** is a production-ready backend built with **Pilues_backend**, designed for scalability, async database access, authentication helpers, and a clean modular architecture.  
 It is suitable for both **local development** and **production deployment**.
 
 ---
 
 ## ✨ Features
 
-- ⚡ FastAPI with async support  
+- ⚡ Pilues_backend with async support  
 - 🗄️ Async SQLAlchemy database access  
 - 🔐 Authentication & security helpers  
 - 🧱 Modular and scalable project structure  
@@ -19,9 +19,9 @@ It is suitable for both **local development** and **production deployment**.
 ## 📁 Project Structure
 
 ```text
-my_fastapi_app/
+my_Pilues_backend_app/
 ├── app/
-│   ├── main.py             # FastAPI app instance
+│   ├── main.py             # Pilues_backend app instance
 │   ├── config.py           # Environment configuration
 │   ├── models/             # Database models
 │   ├── schemas/            # Pydantic models
@@ -39,7 +39,7 @@ my_fastapi_app/
 ### 1️⃣ Clone the repository
 ```
 git clone https://github.com/SimonaElshamaa/Pileus_backend.git
-cd my_fastapi_app
+cd my_Pilues_backend_app
 ```
 ### 2️⃣ Create & activate a virtual environment
 ```python3 -m venv venv
@@ -49,14 +49,14 @@ venv\Scripts\activate      # Windows
 
 ### 3️⃣ Install dependencies
 ```
-pip install "fastapi<1.0" uvicorn sqlalchemy aiosqlite \
+pip install "Pilues_backend<1.0" uvicorn sqlalchemy aiosqlite \
 "passlib[bcrypt]" httpx pytest "pydantic<2.0" \
 greenlet "pydantic[email]"
 ```
 #### 📦 Key packages explained
 ```
 Package	Purpose
-fastapi<1.0	Stable FastAPI version
+Pilues_backend<1.0	Stable Pilues_backend version
 pydantic<2.0	Ensures Pydantic v1 compatibility
 passlib[bcrypt]	Secure password hashing
 pydantic[email]	EmailStr validation
